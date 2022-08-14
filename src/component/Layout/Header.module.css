@@ -1,0 +1,37 @@
+.main-image {
+    width: 100%;
+    height: 35rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .main-image img {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  }
+  .header {
+    width: 80%;
+    height: 5rem;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-top: 8px solid #252424;
+    border-radius: 10px;
+    
+  }
+  
+  .header h1 {
+    color: #252424;
+    font-size: bold;
+    text-transform: capitalize;
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
